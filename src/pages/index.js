@@ -1,11 +1,11 @@
-import * as React from "react"
+import * as React from 'react'
+import Layout from '../components/layout'
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Zheng Family Foundation</h1>
+    <Layout pageTitle="Zheng Family Foundation">
       <p>Welcome to the official webpage for the Zheng Family Foundation</p>
-    </main>
+    </Layout>
   )
 }
 
