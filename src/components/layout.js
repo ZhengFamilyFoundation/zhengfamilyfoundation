@@ -41,6 +41,9 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+      <footer>
+        <p>&copy; 2025 Zheng Family Foundation</p>
+      </footer>
     </div>
   )
 }
